@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "ita.codice-civile"
+           :title "Codice civile (Regio Decreto 16 marzo 1942, n. 262)"
+           :jurisdiction "ITA"
+           :kind :law
+           :law-number "R.D. 262/1942"
+           :url "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=1942-04-04&atto.codiceRedazionale=042U0262"
+           :url-provenance :official-gazzetta-ufficiale
+           :enacted-date "1942-03-16"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "ita.codice-privacy"
+           :title "Codice in materia di protezione dei dati personali (Decreto Legislativo 30 giugno 2003, n. 196)"
+           :jurisdiction "ITA"
+           :kind :law
+           :law-number "D.Lgs. 196/2003"
+           :url "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2003-07-29&atto.codiceRedazionale=003G0218"
+           :url-provenance :official-gazzetta-ufficiale
+           :enacted-date "2003-06-30"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "ita.statuto-dei-lavoratori"
+           :title "Statuto dei lavoratori (Legge 20 maggio 1970, n. 300)"
+           :jurisdiction "ITA"
+           :kind :law
+           :law-number "L. 300/1970"
+           :url "https://www.gazzettaufficiale.it/eli/id/1970/05/27/070U0300/sg"
+           :url-provenance :official-gazzetta-ufficiale
+           :enacted-date "1970-05-20"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
