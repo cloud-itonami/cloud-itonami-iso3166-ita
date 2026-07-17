@@ -1,0 +1,17 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "ita.dish.pizza", :name "Pizza", :country "ITA", :kind :dish, :summary "Italian dish from Naples; Raffaele Esposito is often credited with creating the modern version in Naples at the end of the 19th century.", :url "https://en.wikipedia.org/wiki/Pizza", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ita.dish.spaghetti", :name "Spaghetti", :country "ITA", :kind :dish, :summary "Long, thin, solid, cylindrical pasta, a staple food of Italian cuisine.", :url "https://en.wikipedia.org/wiki/Spaghetti", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ita.dish.gelato", :name "Gelato", :country "ITA", :kind :dish, :summary "Type of ice cream of Italian origin.", :url "https://en.wikipedia.org/wiki/Gelato", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Tiramisu", :id "ita.dish.tiramisu", :kind :dish, :name-local "Tiramisù", :country "ITA", :retrieved-at "2026-07-17", :summary "Italian dessert originating in northeastern Italy (Veneto and Friuli-Venezia Giulia regions).", :name "Tiramisu", :url-provenance :wikipedia-en}
+#:culture{:id "ita.beverage.espresso", :name "Espresso", :country "ITA", :kind :beverage, :summary "Coffee-brewing method originating in Italy, now one of the most popular worldwide.", :url "https://en.wikipedia.org/wiki/Espresso", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ita.beverage.chianti", :name "Chianti", :country "ITA", :kind :beverage, :summary "Red wine produced in the Chianti region of central Tuscany, holding DOCG classification.", :url "https://en.wikipedia.org/wiki/Chianti", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ita.product.parmigiano-reggiano", :name "Parmigiano Reggiano", :country "ITA", :kind :product, :summary "Hard, granular cow's-milk cheese aged at least 12 months, with protected designation of origin (PDO) status.", :url "https://en.wikipedia.org/wiki/Parmigiano_Reggiano", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "ita.craft.murano-glass", :name "Murano glass", :country "ITA", :kind :craft, :summary "Glassware made in Venice, typically on the island of Murano, with elaborate decoration and techniques developed over centuries.", :url "https://en.wikipedia.org/wiki/Murano_glass", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Carnival_of_Venice", :id "ita.festival.carnival-of-venice", :kind :festival, :name-local "Carnevale di Venezia", :country "ITA", :retrieved-at "2026-07-17", :summary "Annual festival held in Venice, famous for its elaborate costumes and masks.", :name "Carnival of Venice", :url-provenance :wikipedia-en}
+#:culture{:url "https://en.wikipedia.org/wiki/Venice", :id "ita.heritage.venice", :kind :heritage, :name-local "Venezia", :country "ITA", :retrieved-at "2026-07-17", :summary "Venice and its lagoon, inscribed as a UNESCO World Heritage Site in 1987.", :name "Venice and its Lagoon", :url-provenance :wikipedia-en}
+]
